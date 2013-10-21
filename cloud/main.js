@@ -7,7 +7,7 @@ AV.Cloud.define("hello", function(request, response) {
   var　str = "";
   config = "test: !!js/function > \n  \
   function f() { \n    \
-   str="HelloWorld" \n  \
+   str = 'HelloWorld' \n  \
   }();"
   
   yaml.load(config);
